@@ -22,10 +22,9 @@ server:
 zuul:
   prefix: /mentorportal
   routes:
-
-    mentorService:
-      path: /api/***
-      service-id: MENTORSERVICE
+     mentor-on-DemandService:
+       path: /**
+       service-id: MENTOR-ON-DEMANDSERVICE
 #    mentorSkillCalendarService:
 #      path: /skillMentService/**
 #      service-id: MENTORSKILLCALENDARSERVICE
